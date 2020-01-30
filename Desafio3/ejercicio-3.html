@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio 3</title>
+  <style media="screen" type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .flag {
+      box-sizing: content-box;
+    }
+
+    .spain {
+      border: solid 1px black;
+      height: 150px;
+      width: 250px;
+    }
+
+    .red_spain_top {
+      height: 42px;
+      width: 250px;
+      background-color: rgba(255, 0, 0);
+    }
+
+    .yellow_spain {
+      height: 66px;
+      width: 250px;
+      background-color: rgb(235, 231, 18);
+    }
+
+    .red_spain_buttom {
+      height: 42px;
+      width: 250px;
+      background-color: rgba(255, 0, 0);
+    }
+
+    .emirates {
+      position: absolute;
+      bottom: 350px;
+      height: 150px;
+      width: 250px;
+      border: solid 1px black;
+    }
+
+    .green_emirates {
+      height: 50px;
+      width: 250px;
+      background-color: rgb(27, 88, 27);
+    }
+
+    .white_emirates {
+      height: 50px;
+      width: 250px;
+      background-color: white;
+    }
+
+    .black_emirates {
+      height: 50px;
+      width: 250px;
+      background-color: black;
+    }
+
+    .red_emirates {
+      height: 150px;
+      width: 62.5px;
+      background-color: rgb(202, 33, 33);
+      z-index: 0;
+      position: absolute;
+      bottom: 0px;
+    }
+
+    .denmark {
+      position: absolute;
+      left: 275px;
+      top: 0px;
+      height: 150px;
+      width: 250px;
+      border: solid 1px black;
+      background-color: rgb(218, 15, 15);
+    }
+
+    .denmark_vertical_white_line {
+      height: 150px;
+      width: 20px;
+      background-color: white;
+      position: absolute;
+      right: 165px;
+    }
+
+    .denmark_horizontal_white_line {
+      width: 250px;
+      height: 20px;
+      background-color: white;
+      position: absolute;
+      bottom: 65px;
+    }
+
+    .japan {
+      position: absolute;
+      left: 275px;
+      bottom: 350px;
+      height: 150px;
+      width: 250px;
+      border: solid 1px black;
+      background-color: white;
+    }
+
+    .japan_red_circle {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border-radius: 100%;
+      background-color: rgb(216, 19, 19);
+      left: 95px;
+      bottom: 45px;
+    }
+
+    .denmark_text {
+      margin-top: 160px;
+    }
+
+    .japan_text {
+      margin-top: 160px;
+    }
+
+    .spain_text {
+      margin-top: 10px;
+    }
+
+    .emirates_text {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="flag spain">
+    <article>
+      <div class="red_spain_top"></div>
+      <div class="yellow_spain"></div>
+      <div class="red_spain_buttom"></div>
+    </article>
+    <h4 class="spain_text">España</h4>
+  </section>
+
+  <section class="flag denmark">
+    <article>
+      <div class="denmark_vertical_white_line"></div>
+      <div class="denmark_horizontal_white_line"></div>
+    </article>
+    <h4 class="denmark_text">Dinamarca</h4>
+  </section>
+
+  <section class="flag emirates">
+    <article>
+      <div class="green_emirates"></div>
+      <div class="white_emirates"></div>
+      <div class="black_emirates"></div>
+      <div class="red_emirates"></div>
+    </article>
+    <h4 class="emirates_text">Emiratos Árabes</h4>
+  </section>
+
+  <section class="flag japan">
+    <article>
+      <div class="japan_red_circle"></div>
+    </article>
+    <h4 class="japan_text">Japón</h4>
+  </section>
+</body>
+
+</html>
